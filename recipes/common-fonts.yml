@@ -3,4 +3,7 @@
 type: fonts
 fonts:
   nerd-fonts:
+    - FiraCode
+    - Hack
+    - Meslo
   google-fonts:
