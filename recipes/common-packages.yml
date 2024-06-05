@@ -1,0 +1,12 @@
+# common-packages.yml
+#
+type: rpm-ostree
+repos:
+install:
+  - langpacks-en       # English langpacks
+  - langpacks-en_GB    # Prefered language
+  - alacritty          # Terminal emulator
+  - gparted            # Partitioning tool
+  - gnome-shell-extension-openweather  # OpenWeather Gnome Extension
+  - gnome-shell-extension-appindicator # AppIndicator and KStatusNotifierItem
+remove:
