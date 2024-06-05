@@ -1,0 +1,6 @@
+# common-fonts.yml
+#
+type: fonts
+fonts:
+  nerd-fonts:
+  google-fonts:

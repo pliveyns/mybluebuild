@@ -1,0 +1,11 @@
+# common-flatpaks.yml
+#
+type: default-flatpaks
+notify: true
+system:
+  repo-url:
+  repo-name:
+  install:
+  remove:
+user:
+  repo-name:
