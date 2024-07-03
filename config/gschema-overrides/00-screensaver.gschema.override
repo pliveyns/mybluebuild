@@ -1,2 +1,2 @@
-[org/gnome/desktop/screensaver]
+[org.gnome.desktop.screensaver]
 lock-delay=uint32 1800
