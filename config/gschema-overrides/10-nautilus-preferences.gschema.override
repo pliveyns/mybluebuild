@@ -1,0 +1,5 @@
+[org.gnome.nautilus.preferences]
+default-folder-viewer='list-view'
+search-view='list-view'
+[org.gtk.gtk4.settings.file-chooser]
+sort-directories-first=true
