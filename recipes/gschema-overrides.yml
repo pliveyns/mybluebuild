@@ -1,3 +1,9 @@
 type: gschema-overrides
 include:
   - 00-screensaver.gschema.override
+  - 01-interface.gschema.override
+  - 02-calendar.gschema.override
+  - 03-background.gschema.override
+  - 04-privacy.gschema.override
+  - 05-session.gschema.override
+  - 06-preferences.gschema.override
