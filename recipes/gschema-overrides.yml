@@ -7,3 +7,12 @@ include:
   - 04-privacy.gschema.override
   - 05-session.gschema.override
   - 06-preferences.gschema.override
+  - 07-media-handling.gschema.override
+  - 08-color.gschema.override
+  - 09-power.gschema.override
+  - 10-nautilus-preferences.gschema.override
+  - 11-shell.gschema.override
+  - 12-keybindings.gschema.override
+  - 13-peripherals.gschema.override
+  - 14-openweather.gschema.override
+  - 15-system.gschema.override
