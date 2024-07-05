@@ -6,6 +6,7 @@ system:
   repo-url:
   repo-name:
   install:
+    - flathub org.mozilla.firefox          # Firefox Internet browser
     - com.bitwarden.desktop                # Bitwarden password tool
     - com.github.johnfactotum.Foliate      # Foliate ebook reader
     - io.mpv.Mpv                           # Mpv movie player
@@ -17,6 +18,7 @@ system:
     - social.whalebird.WhalebirdDesktop    # Whalebird mastodon client
     - im.riot.Riot                         # Element app; matrix client
     - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
+    - org.gnome.loupe                      # Loupe image viewer
   remove:
 user:
   repo-name:
