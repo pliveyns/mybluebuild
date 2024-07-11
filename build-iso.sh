@@ -5,4 +5,4 @@ ghcr.io/jasonn3/build-container-installer:latest \
 IMAGE_REPO=ghcr.io/pliveyns \
 IMAGE_NAME=mybluebuild \
 IMAGE_TAG=latest \
-VARIANT=Silverblue # should match the variant your image is based on
+VARIANT=Silverblue
