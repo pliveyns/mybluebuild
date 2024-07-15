@@ -18,7 +18,7 @@ system:
     - social.whalebird.WhalebirdDesktop    # Whalebird mastodon client
     - im.riot.Riot                         # Element app; matrix client
     - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
-    - org.gnome.loupe                      # Loupe image viewer
+    - org.gnome.Loupe                      # Loupe image viewer
   remove:
 user:
   repo-name:
