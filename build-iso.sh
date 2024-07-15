@@ -6,3 +6,4 @@ IMAGE_REPO=ghcr.io/pliveyns \
 IMAGE_NAME=mybluebuild \
 IMAGE_TAG=latest \
 VARIANT=Silverblue
+VERSION=40
