@@ -1,6 +1,0 @@
-ublue_variants:
-  - label: pliveyns/mybluebuild
-    ks: /kickstart/ublue-os.ks
-    flavors:
-      - label: mybluebuild
-      #- label: mybluebuild-kvm
