@@ -46,9 +46,11 @@ my_nvchad:
 
 # Set firefox as default default browser
 my_default-browser-firefox:
-  #!/bin/sh
   xdg-settings set default-web-browser org.mozilla.firefox.desktop
 
 # Run the ansible postinstall
 my_postinstall:
   curl http://192.168.148.28:8081/bootstrapublue | bash
+
+my_setup-chezmoi:
+  systemctl enable --user chezmoi-init.service chezmoi-update.timer

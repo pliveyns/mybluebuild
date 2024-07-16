@@ -3,7 +3,7 @@ type: chezmoi
 #repository: "https://example.org/user/dotfiles" # Required - Default: n/a  - Expects type: string
 repository: "git@gitlab.com:pliveyns/dotfiles.git"
 # Whether to enable the modules services globally for all users, if false users need to enable services manually
-all-users: true # Optional - Default: true - Expects type: boolean
+all-users: false # Optional - Default: true - Expects type: boolean
 # Dotfiles will be updated with this interval
 run-every: '1d' # Optional - Default: '1d' - Expects type: string
 # Dotfile updates will wait this long after a boot before running
