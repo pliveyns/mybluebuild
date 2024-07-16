@@ -1,7 +1,17 @@
-[org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+#[org.gnome.settings-daemon.plugins.media-keys]
+#custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-binding='<Control><Alt>t'
-command='/usr/bin/alacritty -e toolbox run -c bluebox zellij'
-name='Toolbox Terminal'
+#[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom0]
+#binding='<Control><Alt>t'
+#command='/usr/bin/alacritty -e toolbox run -c bluebox zellij'
+#name='Toolbox Terminal'
+
+
+#/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings
+#  ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+#/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding
+#  '<Control><Alt>t'
+#/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command
+#  '/usr/bin/alacritty -e toolbox run -c bluebox zellij'
+#/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name
+#  'Toolbox Terminal'
