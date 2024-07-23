@@ -20,7 +20,7 @@ system:
     - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
     - org.gnome.Loupe                      # Loupe image viewer
     - org.gnome.Extensions                 # Manage Gnome Extensions
-    - org.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
+    - com.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
   remove:
 user:
   repo-name:
