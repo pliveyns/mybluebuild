@@ -6,7 +6,7 @@ system:
   repo-url:
   repo-name:
   install:
-    - org.mozilla.firefox          # Firefox Internet browser
+    - org.mozilla.firefox                  # Firefox Internet browser
     - com.bitwarden.desktop                # Bitwarden password tool
     - com.github.johnfactotum.Foliate      # Foliate ebook reader
     - io.mpv.Mpv                           # Mpv movie player
@@ -19,6 +19,8 @@ system:
     - im.riot.Riot                         # Element app; matrix client
     - org.cryptomator.Cryptomator          # Cryptomator Encryption tool
     - org.gnome.Loupe                      # Loupe image viewer
+    - org.gnome.Extensions                 # Manage Gnome Extensions
+    - org.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
   remove:
 user:
   repo-name:
