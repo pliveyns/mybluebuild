@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: mybluebuild
+name: mybluebuild-kvm
 # description will be included in the image's metadata
 description: This is my customized Fedora Silverblue 
 
@@ -62,7 +62,7 @@ modules:
 
   - from-file: common-scripts.yml
 
-  #- from-file: common-kvm.yml
+  - from-file: common-kvm.yml
 
   - from-file: gschema-overrides.yml
 
