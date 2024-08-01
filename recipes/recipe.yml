@@ -63,6 +63,8 @@ modules:
 
   - from-file: common-scripts.yml
 
+  - from-file: common-justfiles.yml
+
   #- from-file: common-kvm.yml
 
   - from-file: gschema-overrides.yml
