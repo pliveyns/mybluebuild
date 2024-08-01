@@ -1,0 +1,9 @@
+type: gnome-extensions
+install:
+  - Night Theme Switcher
+  - Blur my Shell
+  - AppIndicator and KStatusNotifierItem Support
+  - OpenWeather Refined
+  - GSConnect
+uninstall:
+
