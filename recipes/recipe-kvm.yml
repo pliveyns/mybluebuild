@@ -68,6 +68,8 @@ modules:
 
   - from-file: common-justfiles.yml
 
+  - from-file: common-systemd.yml
+
   - from-file: common-kvm.yml
 
   - from-file: gschema-overrides.yml

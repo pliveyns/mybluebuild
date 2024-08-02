@@ -1,0 +1,7 @@
+type: systemd
+system:
+  enabled:
+user:
+  enabled:
+    - syncthing.service
+
