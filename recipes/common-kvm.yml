@@ -1,6 +1,6 @@
 type: rpm-ostree
 install:
-  - bridge-utils      # network bridge for virtualisation
+  #- bridge-utils      # network bridge for virtualisation; not really needed on a workstation
   #- vagrant-libvirt   # vagrant install        #Dependencies are broken
   - virt-install      # KVM virtualisation
   - virt-manager      # grahical gui for kvm virtualisation
