@@ -21,6 +21,18 @@ system:
     - org.gnome.Loupe                      # Loupe image viewer
     - org.gnome.Extensions                 # Manage Gnome Extensions
     - com.mattjakeman.ExtensionManager     # Install and Manage Gnome extensions
+    - org.gnome.Snapshot                   # Gnome Camera
+    - org.gnome.Photos                     # Gnome Photos
+    - org.gnome.Totem                      # Gnome Videos
+    - dev.vencord.Vesktop                  # Discord App
+    - org.gnome.SimpleScan                 # Gnome Document Scanner
+    - org.gnome.Connections                # Gnome Connections
+    - org.fedoraproject.MediaWriter        # Fedora Media Writer
+    - org.filezillaproject.Filezilla       # Mozilla Filezilla
+    - com.github.tchx84.Flatseal           # Manage Flatpak Permissions
+    - fr.handbrake.ghb                     # Video Transcoder
+    - org.libreoffice.LibreOffice          # The LibreOffice productivity suite
+    - com.logseq.Logseq                    # Connect your notes and knowledge
   remove:
 user:
   repo-name:
