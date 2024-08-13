@@ -8,6 +8,5 @@ install:
   - alacritty          # Terminal emulator
   - gparted            # Partitioning tool
   - syncthing          # Easy folder sharing
-  #- gnome-shell-extension-openweather  # OpenWeather Gnome Extension
-  #- gnome-shell-extension-appindicator # AppIndicator and KStatusNotifierItem
+  - https://eid.belgium.be/sites/default/files/software/eid-archive-fedora-2021-1.noarch.rpm   # Belgian eID software
 remove:
