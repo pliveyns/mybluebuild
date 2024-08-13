@@ -33,6 +33,8 @@ system:
     - fr.handbrake.ghb                     # Video Transcoder
     - org.libreoffice.LibreOffice          # The LibreOffice productivity suite
     - com.logseq.Logseq                    # Connect your notes and knowledge
+    - org.gnome.SimpleScan                 # Document Scanner
+    - fr.handbrake.ghb                     # Video Transcoder
   remove:
 user:
   repo-name:
