@@ -1,8 +1,0 @@
-# common-packages2.yml
-#
-type: rpm-ostree
-repos:
-install:
-  - eid-viewer         # Belgian eID viewer
-  - eid-mw             # Belgian eID Middleware
-remove:
