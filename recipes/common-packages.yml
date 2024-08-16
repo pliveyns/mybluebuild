@@ -9,6 +9,6 @@ install:
   - gparted            # Partitioning tool
   - syncthing          # Easy folder sharing
   - https://eid.belgium.be/sites/default/files/software/eid-archive-fedora-2021-1.noarch.rpm   # Belgian eID Repo
-  - eid-viewer         # Belgian eID viewer
-  - eid-mw             # Belgian eID Middleware
+  #- eid-viewer         # Belgian eID viewer
+  #- eid-mw             # Belgian eID Middleware
 remove:
