@@ -40,6 +40,7 @@ system:
     - org.gnome.Connections                # Gnome Connections
     - org.fedoraproject.MediaWriter        # Fedora Media Writer
     - com.github.tchx84.Flatseal           # Manage Flatpak Permissions
+    - org.gnome.Calculator                 # Gnome Calculator
   remove:
 user:
   repo-name:
