@@ -7,5 +7,5 @@ set -oue pipefail
 
 echo 'Download and install twingate install script'
 curl -Lo /tmp/twingate.sh https://binaries.twingate.com/client/linux/install.shell
-bash /tmp/twingate.shell
+bash /tmp/twingate.sh
 
