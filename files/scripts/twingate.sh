@@ -5,7 +5,9 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-echo 'Download and install twingate install script'
-curl -Lo /tmp/twingate.sh https://binaries.twingate.com/client/linux/install.shell
-bash /tmp/twingate.sh
+echo 'Add twingate repo and install package'
+rpm-ostree install -y 'dnf-command(config-manager)'
+ostree remote add twingate https://packages.twingate.com/rpm/
+rpm-ostree cleanup -m
+rpm-ostree install twingate
 
