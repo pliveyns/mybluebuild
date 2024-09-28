@@ -1,8 +1,8 @@
 type: systemd
 system:
   enabled:
+    - tailscaled.service
 user:
   enabled:
     - syncthing.service
-    #- tailscaled.service
 
