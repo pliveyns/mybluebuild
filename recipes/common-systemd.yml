@@ -4,5 +4,5 @@ system:
 user:
   enabled:
     - syncthing.service
-    - tailscaled.service
+    #- tailscaled.service
 
