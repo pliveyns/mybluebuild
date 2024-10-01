@@ -5,5 +5,6 @@ install:
   - AppIndicator and KStatusNotifierItem Support
   - OpenWeather Refined
   - GSConnect
+  - Tailscale QS
 uninstall:
 
