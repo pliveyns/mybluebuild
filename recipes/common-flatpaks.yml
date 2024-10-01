@@ -41,6 +41,8 @@ system:
     - org.fedoraproject.MediaWriter        # Fedora Media Writer
     - com.github.tchx84.Flatseal           # Manage Flatpak Permissions
     - org.gnome.Calculator                 # Gnome Calculator
+    # DevOps
+    - com.vscodium.codium                  # VSCodium Code Editor
   remove:
 user:
   repo-name:
