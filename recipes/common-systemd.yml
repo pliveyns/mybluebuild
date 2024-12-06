@@ -1,6 +1,6 @@
 type: systemd
 system:
-  enabled:
+  enabled: []
     #- tailscaled.service
 user:
   enabled:

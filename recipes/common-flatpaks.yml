@@ -3,8 +3,8 @@
 type: default-flatpaks
 notify: true
 system:
-  repo-url:
-  repo-name:
+  repo-url: {}
+  repo-name: {}
   install:
     # Internet
     - org.mozilla.firefox                  # Firefox Internet browser
@@ -43,6 +43,6 @@ system:
     - org.gnome.Calculator                 # Gnome Calculator
     # DevOps
     - com.vscodium.codium                  # VSCodium Code Editor
-  remove:
+  remove: []
 user:
-  repo-name:
+  repo-name: {}

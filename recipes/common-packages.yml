@@ -12,4 +12,4 @@ install:
   - gparted            # Partitioning tool
   - syncthing          # Easy folder sharing
   - tailscale          # Tailscale zero trust vpn
-remove:
+remove: []

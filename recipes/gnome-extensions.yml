@@ -6,5 +6,5 @@ install:
   - OpenWeather Refined
   - GSConnect
   - Tailscale QS
-uninstall:
+uninstall: []
 
