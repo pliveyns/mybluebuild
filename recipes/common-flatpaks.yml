@@ -1,13 +1,14 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+
 #
 # common-flatpaks.yml
 #
 type: default-flatpaks
 notify: true
 system:
-  repo-url: {}
-  repo-name: {}
+  repo-url: []
+  repo-name: []
   install:
     # Internet
     - org.mozilla.firefox                  # Firefox Internet browser
@@ -48,4 +49,4 @@ system:
     - com.vscodium.codium                  # VSCodium Code Editor
   remove: []
 user:
-  repo-name: {}
+  repo-name: []
