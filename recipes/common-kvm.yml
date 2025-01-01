@@ -1,9 +1,11 @@
 type: rpm-ostree
 install:
+  - libvirt
+  - libvirt-nss
   - qemu
   - qemu-kvm
   - virt-install      # KVM virtualisation
   - virt-manager      # grahical gui for kvm virtualisation
   - edk2-ovmf         # uefi for kvm guests
   - swtpm             # Software TPM for KVM
-
+  - guestfs-tools
