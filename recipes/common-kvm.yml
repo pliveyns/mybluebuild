@@ -9,3 +9,4 @@ install:
   - edk2-ovmf         # uefi for kvm guests
   - swtpm             # Software TPM for KVM
   - guestfs-tools
+  - genisoimage
