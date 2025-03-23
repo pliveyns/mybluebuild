@@ -7,7 +7,7 @@ type: rpm-ostree
 repos:
   - netbird.repo
   #- https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-keys:
+keys: []
   #- https://pkgs.tailscale.com/stable/fedora/repo.gpg
 install:
   - langpacks-en       # English langpacks
