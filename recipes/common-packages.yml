@@ -19,5 +19,6 @@ install:
   - libappindicator-gtk3
   - libappindicator
   - netbird-ui
+  - gnome-shell-extension-appindicator
   #- tailscale          # Tailscale zero trust vpn
 remove: []
