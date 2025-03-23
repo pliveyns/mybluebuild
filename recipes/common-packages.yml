@@ -1,3 +1,6 @@
+---
+# yaml-language-server: $schema=https://schema.blue-
+#
 # common-packages.yml
 #
 type: rpm-ostree
@@ -12,9 +15,9 @@ install:
   - alacritty          # Terminal emulator
   - gparted            # Partitioning tool
   - syncthing          # Easy folder sharing
-  #- tailscale          # Tailscale zero trust vpn
   - netbird            # netbird zero trust vpn
   - libappindicator-gtk3
   - libappindicator
   - netbird-ui
+  #- tailscale          # Tailscale zero trust vpn
 remove: []
