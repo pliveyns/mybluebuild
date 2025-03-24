@@ -1,6 +1,7 @@
 type: systemd
 system:
-  enabled: []
+  enabled:
+    - netbird.service
     #- tailscaled.service
 user:
   enabled:
