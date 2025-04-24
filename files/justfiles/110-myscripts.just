@@ -48,7 +48,7 @@ toolbox-iotbox:
   then
     echo "The toolbx iotbox already exists and will not be installed"
   else
-    icho "Installing iotbox toolbx"
+    echo "Installing iotbox toolbx"
     toolbox create -y -i ghcr.io/pliveyns/iotbox-cli -c iotbox
   fi
 
