@@ -2,7 +2,8 @@ type: gnome-extensions
 install:
   - Night Theme Switcher
   - Blur my Shell
-  - AppIndicator and KStatusNotifierItem Support
+  #- AppIndicator and KStatusNotifierItem Support
+  - Tray Icons: Reloaded
   - OpenWeather Refined
   - GSConnect
   - Tailscale QS
