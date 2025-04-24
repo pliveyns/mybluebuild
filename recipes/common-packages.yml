@@ -20,5 +20,6 @@ install:
   - libappindicator
   - netbird-ui
   - gnome-shell-extension-appindicator
+  - gnome-shell-extension-openweather
   #- tailscale          # Tailscale zero trust vpn
 remove: []

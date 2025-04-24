@@ -3,8 +3,8 @@ install:
   - Night Theme Switcher
   - Blur my Shell
   #- AppIndicator and KStatusNotifierItem Support
-  - OpenWeather Refined
+  #- OpenWeather Refined
   - GSConnect
-  - Tailscale QS
+  #- Tailscale QS
 uninstall: []
 
