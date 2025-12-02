@@ -72,7 +72,7 @@ libvirt-workaround:
   sudo groupadd -g 963 libvirt
   sudo groupadd -g 107 qemu
   sudo useradd -u 107 -g 107 -d / -s /usr/sbin/nologin qemu
-  sudo usermod -aG livirt ${USER}
+  sudo usermod -aG libvirt ${USER}
   sudo usermod -aG qemu ${USER}
   sudo restorecon -rv /var/lib/libvirt/
   sudo restorecon -rv /var/log/libvirt/
